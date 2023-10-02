@@ -1,0 +1,54 @@
+# _config.yml
+
+# Site settings
+title: Your Site Title
+description: Your site description
+baseurl: "" # Leave this empty for a root domain, or specify a subdirectory if needed
+url: "https://example.com" # Change to your site's URL
+
+# Build settings
+markdown: kramdown
+theme: minima # You can change this to any Jekyll theme you prefer or leave it as "minima"
+plugins:
+  - jekyll-feed
+
+# Exclude files/folders from the build process
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor
+  - _site
+
+# Default layout for posts and pages
+defaults:
+  -
+    scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+  -
+    scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "page"
+
+# Permalinks
+permalink: pretty # You can change this to "date" or other options if needed
+
+# Collections (if you plan to use them)
+collections:
+  your_collection_name:
+    output: true
+
+# Exclude files/folders from Jekyll processing
+keep_files:
+  - .gitignore
+  - .nojekyll
+
+# Destination folder (output)
+destination: _site
+
+# Additional configurations specific to your needs
