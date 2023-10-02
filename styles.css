@@ -1,0 +1,119 @@
+/* Styles for the navigation */
+.navigation {
+    background-color: rgb(179, 232, 229);
+    font-family: Exo, sans-serif;
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 0;
+}
+
+
+.navigation-item {
+    opacity: 0.6;
+    color: rgb(0, 36, 34);
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    font-family: Exo, sans-serif;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 20px;
+    padding: 9px 15px;
+    text-decoration: none;
+}
+
+.hero-heading-center {
+    background-color: #fff;
+    border-bottom: 1px solid #e4ebf3;
+    padding: 80px 30px;
+    font-size: 20px;
+    position: relative;
+}
+.container-5 {
+    width: 100%;
+    max-width: 940px;
+    margin-left: auto;
+    margin-right: auto;
+}
+:-webkit-any(article, aside, nav, section) h1 {
+    font-size: 1.5em;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+}
+
+h1 {
+    display: block;
+    font-size: 2em;
+    margin-block-start: 0.67em;
+    margin-block-end: 0.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+.centered-heading.margin-bottom-32px {
+    color: #2f281e;
+    margin-bottom: 32px;
+}
+
+.bold-text {
+    flex: 1;
+    order: 0;
+    align-self: auto;
+    margin-left: auto;
+    font-family: Exo, sans-serif;
+}
+.hero-wrapper {
+    justify-content: space-between;
+    align-items: center;
+    font-size: 24px;
+    display: flex;
+}
+.hero-split {
+    max-width: 46%;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin-right: 140px;
+    display: flex;
+}
+.margin-bottom-24px-2 {
+    color: #2f281e;
+    text-align: left;
+    margin-bottom: 220px;
+    font-weight: 600;
+}
+.text-span-4 {
+    color: #2f281e;
+    font-family: Exo, sans-serif;
+}
+.bold-text-3 {
+    line-height: 48px;
+}
+
+
+shadow-two {
+    background-color: rgba(0, 0, 0, 0);
+    background-image: url(https://uploads-ssl.webflow.com/65156a1…/65157cc…_photo_2023-09-21_15-41-08.jpg);
+    background-position: 0 0;
+    background-size: cover;
+    background-attachment: fixed;
+    box-shadow: 0 4px 24px rgba(150, 163, 181, .08);
+}
+img {
+    display: block;
+}
+img {
+    max-width: 100%;
+    vertical-align: middle;
+    display: inline-block;
+}
+img {
+    border: 0;
+}
+* {
+    box-sizing: border-box;
+}
+
+img {
+    overflow-clip-margin: content-box;
+    overflow: clip;
+}
